@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  background: #F0F0F0;
+  margin-bottom: 35px;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.f_sec {
+  margin-bottom: 60px;
+}
+.f_sec h1 {
+  font-size: 48px;
+  padding-left: 5%;
+  margin-bottom: 10px;
+}
+.f_sec p {
+  padding-left: 5%;
+  color: blue;
+}
+
+.s_sec {
+  padding-left: 5%;
+  margin-bottom: 70px;
+}
+.s_sec h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.s_sec .card_box {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.s_sec .card {
+  width: 20%;
+  padding: 15px;
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.s_sec .card h4 {
+  font-size: 28px;
+  color: white;
+}
+.s_sec .card p {
+  font-size: 14px;
+  color: white;
+}
+
+.t_sec {
+  padding-left: 5%;
+  margin-bottom: 5%;
+}
+.t_sec h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.t_sec table {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.t_sec table tr td {
+  padding: 10px;
+  border-bottom: 1px solid #c4c4c4;
+}/*# sourceMappingURL=style.css.map */
